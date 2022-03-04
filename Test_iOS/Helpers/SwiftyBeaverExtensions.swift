@@ -11,8 +11,6 @@ let logger = SwiftyBeaver.self
 
 extension SwiftyBeaver {
     
-     //ex) log.debugPrint("Function called", .verbose)
-    
     static func debugPrint(
         _ message: @autoclosure () -> Any,
         _ file: String = #file,
